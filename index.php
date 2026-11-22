@@ -1,4 +1,4 @@
-```php
+
 <?php
     $name = "Rohit Nandavdekar";
     $serverTime = date("d M Y • h:i:s A");
