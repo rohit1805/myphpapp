@@ -354,6 +354,15 @@
             color: #e2e8f0;
             font-size: 15px;
         }
+    
+.creator-name {
+    font-size: 12px;
+    font-weight: 500;
+    color: #67e8f9;
+    margin-top: 3px;
+    letter-spacing: 0.3px;
+}
+
 
         /* Footer */
         footer {
@@ -400,13 +409,17 @@
 <nav>
     <div class="logo">
         <div class="logo-icon">☁</div>
-        PHP × OpenShift
+        <div>
+            <div>PHP × OpenShift</div>
+            <div class="creator-name">Deployed by Rohit Nandavdekar</div>
+        </div>
     </div>
 
     <div class="nav-badge">
         Cloud Deployment Demo
     </div>
 </nav>
+
 
 
 <!-- HERO -->
@@ -639,4 +652,4 @@
 
 </body>
 </html>
-```
+
